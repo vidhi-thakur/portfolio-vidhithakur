@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+
 :root {
     --primary-color: #34D399;
     --offwhite-color: #F3F4F6;
+}
+
+#component-lib {
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 /* for containers */
@@ -15,4 +21,15 @@
     text-decoration: none;
     color: white;
     background-color: var(--primary-color);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
 }
+
+.link-secondary {
+    text-decoration: none;
+    color: var(--primary-color);
+    padding: 0.5rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+}
+/* we need to add space between the links and the seprator line, apparently margin-bottom property isn't helping */
