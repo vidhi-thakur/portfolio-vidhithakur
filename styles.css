@@ -63,3 +63,22 @@
     text-align: right;
     /* padding: 0rem 1rem; */
 }
+
+.navigation h1 {
+    font-size: larger;
+    font-weight: bold;
+}
+/* I don't know why text-align property is not working--> check it, try again */
+
+/* for header */
+
+.img-js {
+    max-width: 500px;
+    display: block;
+    margin: auto;
+}
+
+.heading-header {
+    font-weight: bold;
+    text-align: center;
+}
