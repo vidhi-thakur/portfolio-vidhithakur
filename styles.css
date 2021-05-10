@@ -58,7 +58,7 @@
     border-bottom-left-radius: 1rem;
 }
 
-.navigation a {
+.links-nav {
     color: white;
     text-align: right;
     /* padding: 0rem 1rem; */
@@ -81,4 +81,27 @@
 .heading-header {
     font-weight: bold;
     text-align: center;
+}
+
+/* for sections */
+
+.section {
+    text-align: center;
+}
+
+.section-ow {
+    background-color: var(--offwhite-color);
+    padding: 1rem 0rem;
+}
+
+/* for footer */
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 1rem 0rem;
+    border-top-right-radius: 1rem;
+}
+
+.footer a {
+    color: white;
 }
