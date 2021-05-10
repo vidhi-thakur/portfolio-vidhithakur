@@ -7,6 +7,7 @@
 
 #component-lib {
     font-family: 'Montserrat', sans-serif;
+    padding-inline-start: 0px;
 }
 
 .line-seperator {
@@ -27,6 +28,7 @@
 
 .links {
     text-decoration: none; 
+    margin-bottom: 10rem;
 }
 
 .link-primary {
@@ -70,10 +72,17 @@
     color: white;
 }
 
+/* for nav */
+
 .nav {
     font-size: larger;
+    color: white;
     font-weight: bold;
     padding-bottom: 1rem;
+}
+
+.navigation {
+    padding-bottom: 10px;
 }
 
 .active {
@@ -86,11 +95,17 @@
     max-width: 500px;
     display: block;
     margin: auto;
+    padding-top: 2.5rem;
 }
 
 .heading-header {
     font-weight: bold;
     text-align: center;
+    color: gray;
+}
+
+.span {
+    color: var(--primary-color);
 }
 
 /* for sections */
@@ -99,6 +114,7 @@
     padding: 1rem 0rem;
     max-width: 700px;
     margin: auto;
+    text-align: center;
 }
 
 .section-ow {
