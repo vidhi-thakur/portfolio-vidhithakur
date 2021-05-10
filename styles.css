@@ -15,7 +15,11 @@
 
 /* for containers */
 
-.container .container-centre {
+.container-center {
+    max-width: 700px;
+    margin: auto;
+}
+.container {
     text-align: center;
 }
 
@@ -59,16 +63,22 @@
 }
 
 .links-nav {
-    color: white;
     text-align: right;
-    /* padding: 0rem 1rem; */
 }
 
-.navigation h1 {
+.links-nav a {
+    color: white;
+}
+
+.nav {
     font-size: larger;
     font-weight: bold;
+    padding-bottom: 1rem;
 }
-/* I don't know why text-align property is not working--> check it, try again */
+
+.active {
+    font-weight: bold;
+}
 
 /* for header */
 
@@ -86,17 +96,19 @@
 /* for sections */
 
 .section {
-    text-align: center;
+    padding: 1rem 0rem;
+    max-width: 700px;
+    margin: auto;
 }
 
 .section-ow {
     background-color: var(--offwhite-color);
-    padding: 1rem 0rem;
 }
 
 /* for footer */
 
 .footer {
+    text-align: center;
     background-color: var(--primary-color);
     padding: 1rem 0rem;
     border-top-right-radius: 1rem;
