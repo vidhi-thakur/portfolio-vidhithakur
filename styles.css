@@ -32,34 +32,41 @@ p {
 
 .links {
     text-decoration: none; 
-    /* max-width: 700px;
-    margin: auto; */
+    margin: 1rem 0rem;
+    text-align: center;
 }
 
 .link-primary {
     color: white;
+    display: block;
     background-color: var(--primary-color);
     padding: 0.5rem;
     border-radius: 0.5rem;
-    text-align: left;
+    max-width: 100px;
 }
 
 .link-secondary {
     color: var(--primary-color);
     padding: 0.5rem;
+    display: block;
     border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
+    max-width: 100px;
 }
 
 /* for lists */
 
 .list-unordered {
     list-style: none;
+    padding-inline-start: 0px;
+    margin-block-end: 0em;
 }
 
 .list-inline {
     display: inline;
     padding-right: 1rem;
+    padding-left: 1.5rem;
+    font-size: large;
 }
 
 /* for navigation */
@@ -72,6 +79,7 @@ p {
 
 .links-nav {
     text-align: right;
+    padding-left: 1rem;
 }
 
 .links-nav a {
@@ -108,6 +116,7 @@ p {
     font-weight: bold;
     text-align: center;
     color: gray;
+    padding: 2rem 0rem;
 }
 
 .span {
@@ -117,7 +126,7 @@ p {
 /* for sections */
 
 .section {
-    padding: 1rem 0rem;
+    padding: 1.5rem;
     max-width: 700px;
     margin: auto;
 }
