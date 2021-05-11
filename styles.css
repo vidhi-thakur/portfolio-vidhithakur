@@ -14,6 +14,10 @@
     margin: 2rem 0rem;
 }
 
+p {
+    text-align: justify;
+}
+
 /* for containers */
 
 .container-center {
@@ -28,7 +32,8 @@
 
 .links {
     text-decoration: none; 
-    margin-bottom: 10rem;
+    /* max-width: 700px;
+    margin: auto; */
 }
 
 .link-primary {
@@ -36,6 +41,7 @@
     background-color: var(--primary-color);
     padding: 0.5rem;
     border-radius: 0.5rem;
+    text-align: left;
 }
 
 .link-secondary {
