@@ -106,8 +106,14 @@ p, div {
 
 /* for header */
 
+@media screen and (max-width: 600px) {
+    .img-js {
+        width: 100%;
+    }
+  }
+
 .img-js {
-    max-width: 40%;
+    max-width: 500px;
     display: block;
     margin: auto;
     padding-top: 2.5rem;
