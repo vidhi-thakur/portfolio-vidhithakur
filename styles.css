@@ -148,3 +148,14 @@ p {
 .footer a {
     color: white;
 }
+
+/* for dummy blog */
+
+.blog-dummy {
+    background-color: var(--primary-color);
+    padding: 1.5rem;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 1rem;
+    margin-top: 0px;
+}
