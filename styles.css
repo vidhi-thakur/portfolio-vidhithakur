@@ -107,7 +107,7 @@ p, div {
 /* for header */
 
 .img-js {
-    max-width: 500px;
+    max-width: 40%;
     display: block;
     margin: auto;
     padding-top: 2.5rem;
