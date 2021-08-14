@@ -133,7 +133,7 @@ p, div {
 /* for sections */
 
 .section {
-    /* padding: 1.5rem; */
+    padding: 1.5rem;
     max-width: 700px;
     margin: auto;
 }
