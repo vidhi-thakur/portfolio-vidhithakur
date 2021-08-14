@@ -83,6 +83,12 @@ p, div {
     padding-left: 1rem;
 }
 
+@media screen and (max-width: 500px) {
+    .links-nav {
+        text-align: center;
+    }
+}
+
 .links-nav a {
     color: white;
 }
